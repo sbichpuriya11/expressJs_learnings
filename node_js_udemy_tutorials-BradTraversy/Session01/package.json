@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "name": "node_js_udemy_tutorials-bradtraversy",
+  "version": "1.0.0",
+  "description": "Learnig http",
+  "main": "server.js",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
