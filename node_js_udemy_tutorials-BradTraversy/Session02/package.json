@@ -1,5 +1,22 @@
 {
+  "name": "devcamper_api",
+  "version": "1.0.0",
+  "description": "Devcamper backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production node server",
+    "dev": "nodemon server"
+  },
+  "author": "Somil Bichpuriya",
+  "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "colors": "^1.4.0",
+    "mongoose": "^8.0.4",
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
   }
 }
