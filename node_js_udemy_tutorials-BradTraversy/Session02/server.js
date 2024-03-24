@@ -18,6 +18,8 @@ app.use(express.json());
 
 //Route files
 const bootcamps = require("./routes/bootcamps");
+const courses = require("./routes/courses");
+
 const logger = require("./middleware/logger");
 
 //User defined middleware for logging
@@ -28,6 +30,7 @@ if (process.env.NODE_ENV === "development") app.use(morgan("dev"));
 
 //Mount routers
 app.use("/api/v1/bootcamps", bootcamps);
+app.use("/api/v1/courses", courses);
 
 app.use(errorHandler);
 
